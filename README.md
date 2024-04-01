@@ -1,7 +1,31 @@
-# Vue 3 + Vite
+## Vue 3 + Vite, Composition Api
+# MathForKids
+Demo: https://dazzv-math4kids.netlify.app/
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Как запустить?
 
-## Recommended IDE Setup
+## 1. Установка зависимостей
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+npm i
+
+## 2. Запуск сервера для отправки Json
+
+Откриваем терминал и вводим:
+npm run server
+
+## 3. Запуск клиента
+
+Откриваем второй терминал и вводим:
+npm run dev
+
+P.s: Нужен node.js версии 18+. 
+     Вы можете запустить и без json-server, в таком случае vite просто импортирует json c вопросами
+
+
+
+
+
+
+
+
+
