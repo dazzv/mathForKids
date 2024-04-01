@@ -1,0 +1,99 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:16px;line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%; margin: 0;
+    padding: 0;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0 !important;
+  }
+/*--------------------*/
+
+/* Btns */
+.container-custom{
+    width: 100%;
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.4fr;
+    grid-gap: 25px;
+}
+  
+  .inpt-btn {
+    position: relative;
+  }
+  .inpt-btn input {
+    position: absolute;
+    opacity: 0;
+  }
+  .check-btn,
+  .inpt-btn label {
+    display: inline-block;
+    background: rgb(241, 245, 252);
+    border: none;
+    border-radius: 0.5em;
+    border-bottom: solid 6px rgb(137, 151, 178);
+    padding: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .inpt-btn :checked + label {
+    border-bottom: solid 1px #bbb;
+    margin-top: 2px;
+  }
+  .check-btn:active {
+    border-bottom: solid 1px #bbb;
+    margin-top: 10px;
+  }
+  .help-custom-button{
+    width: 45px;
+    margin: 10px 0; 
+  }
+  .help-custom-button:active{
+    margin: 12.1px 0 !important;
+  }
+
+  /* questions */
+  .img-fluid{
+    max-height: 300px;
+  }
+
+  /* User-balance */
+.balance-icon{
+  height: 20px; 
+  margin-left: 5px;
+}
+
+.alert{
+  margin-top: 60px;
+}
+
+.hide{
+  display:none
+}
+
+@media (max-width: 1024px){
+  .container-custom{
+    grid-gap: 5px;
+    padding: 0 5px;
+  }
+  
+  #options-block{
+    width: 75% !important;
+  }
+  
+}
